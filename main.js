@@ -6,7 +6,7 @@ const score = document.querySelector('.score'),
       car.classList.add('car');
 start.addEventListener('click', startGame);
 document.addEventListener('keydown', startRun);
-document.addEventListener('keyUp', stopRun);
+document.addEventListener('keyup', stopRun);
 
 const keys = {
   ArrowUp: false,
